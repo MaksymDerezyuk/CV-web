@@ -13,6 +13,7 @@ nav a {
     text-decoration: none;
     color: white;
     background-color: black;
+    display: flex
 }  
 nav a:hover {
     background-color: white;
@@ -23,10 +24,68 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .navbar-right {
     display: flex;
 }
+.navbar-left {
+    display: flex;
+}
 body {
     margin: 0;
+}
+.presentacion-40 {
+    background-color: rgb(108, 108, 243);
+    width: 40%;
+    margin-top: 5%;
+}
+.presentaciontxt {
+    font-size: 40px;
+    padding-left: 11%;
+    padding-top: 11%;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+.presentaciontxt2 {
+    font-size: 20px;
+    padding-left: 11%;
+    padding-bottom: 8%;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+.presentacion {
+    background-color: rgb(108, 108, 243);
+    padding-bottom: 2%;
+    display: flex;
+}
+.botonpdf {
+    background-color: black;
+    color: white;
+    padding: 2%;
+    margin-left: 11%;
+    width: 25%;
+    font-size: 20px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    text-align: center;
+    margin-bottom: 10%;
+    border-radius: 10%;
+    font-family: 'Kanit', sans-serif;
+}
+.botonpdf:hover {
+    background-color: white;
+    color: black;
+}
+.presentacion-60 {
+    width: 40%;
+    margin-top: 5%;
+    padding-left: 20%;
+}
+.fotoyo {
+    height: 50%;
+    margin-top: 20%;
+    margin-left: 10%;
 }
