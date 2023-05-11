@@ -91,8 +91,22 @@ body {
     color: white;
     font-family: 'Kanit', sans-serif;
 }
+.presentaciontxt2-cono {
+    font-size: 20px;
+    padding-bottom: 8%;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
 .presentaciontxt2-white {
     font-size: 20px;
+    padding-left: 11%;
+    padding-bottom: 8%;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+}
+.presentaciontxt2-white-2 {
+    font-size: 20px;
+    padding-top: 17%;
     padding-left: 11%;
     padding-bottom: 8%;
     color: black;
@@ -102,11 +116,13 @@ body {
     background-color: rgb(108, 108, 243);
     padding-bottom: 2%;
     display: flex;
+    flex-wrap: wrap;
 }
 .presentacion-2 {
     background-color: white;
     padding-bottom: 2%;
     display: flex;
+    flex-wrap: wrap;
 }
 .botonpdf {
     background-color: black;
@@ -246,7 +262,7 @@ iframe {
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     text-align: center;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     border-radius: 10%;
     font-family: 'Kanit', sans-serif;
     margin-right: 5%;
@@ -266,4 +282,63 @@ iframe {
 }
 .hobby {
     margin-top: 10%;
+}
+.idioma-1 {
+    width: 18%;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+}
+.bandera {
+    width: 100%;
+}
+@media screen and (max-width:500px){
+    .presentacion-40 {
+        width: 100%;
+        margin-right: 7%;
+        margin-bottom: 10%;
+    }
+    .presentacion-60 {
+        width: 100%;
+        margin-right: -10%;
+        margin-top: -20%;
+        padding-bottom: 30% ;
+    }
+    iframe {
+        height: 100%;
+    }
+    .titulo {
+        margin-top: 30%;
+        font-size: 60px;
+    }
+    .seispasatiempos {
+        width: 100%;
+    }
+    .contacto {
+        width: 100%;
+    }
+    .idioma {
+        width: 100%;
+    }
+    .botonpdf {
+        width: 82%;
+    }
+    .presentacion-40-est {
+        width: 100%;
+        margin-right: 7%;
+        margin-bottom: 20%;
+    }
+    .maps {
+        height: 200%;
+        margin-bottom: -5%;
+        padding-right: 0;
+    }
+    .presentacion-40-2 {
+        width: 100%;
+        margin-right: 7%;
+        margin-bottom: 20%;
+    }
+    .idioma-1 {
+        width: 100%;
+    }
 }
