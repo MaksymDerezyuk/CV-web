@@ -142,6 +142,10 @@ body {
     background-color: white;
     color: black;
 }
+.botoneng:hover {
+    background-color: white;
+    color: black;
+}
 .presentacion-60 {
     width: 50%;
     margin-top: 5%;
@@ -233,7 +237,7 @@ iframe {
     width: 46%;
 }
 .datos-contacto {
-    width: 20%;
+    width: 50%;
 }
 .titulo-contacto {
     width: 100%;
@@ -292,6 +296,14 @@ iframe {
 .bandera {
     width: 100%;
 }
+a {
+    padding-top: 5%;
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    color: black;
+}
 @media screen and (max-width:500px){
     .presentacion-40 {
         width: 100%;
@@ -339,6 +351,9 @@ iframe {
         margin-bottom: 20%;
     }
     .idioma-1 {
+        width: 100%;
+    }
+    .datos-contacto {
         width: 100%;
     }
 }
